@@ -1,0 +1,5 @@
+number = input()
+lst = list(number)
+lst.sort(reverse=True)
+largest_number = ''.join(lst)
+print(largest_number)
